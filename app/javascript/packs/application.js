@@ -7,8 +7,8 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("/Users/t-kobayashi/projects/ajax_app/app/javascript/packs/checked")
-require("/Users/t-kobayashi/projects/ajax_app/app/javascript/packs/memo")
+require("../checked")
+require("../memo")
 // 自分のPCでパスを指定すること
 
 // Uncomment to copy all static images under ../images to the output folder and reference
